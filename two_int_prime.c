@@ -1,3 +1,5 @@
+//Write a C program to find and print all prime numbers within a given range [n1, n2].
+
 #include<Stdio.h>
 int main()
 {
