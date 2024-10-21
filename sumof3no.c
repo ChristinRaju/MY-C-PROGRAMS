@@ -1,3 +1,5 @@
+//Write a C program to calculate the sum of three integers and display the result.
+
 #include<stdio.h>
 int main()
 {
