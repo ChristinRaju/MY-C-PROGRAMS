@@ -1,3 +1,5 @@
+//Write a C program to calculate and display the average of three integer values entered by the user.
+
 #include<stdio.h>
 int main()
 {
