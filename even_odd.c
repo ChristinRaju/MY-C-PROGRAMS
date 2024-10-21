@@ -1,3 +1,5 @@
+//Write a C program to determine whether a given number is even or odd.
+
 #include<stdio.h>
 int main()
 {
