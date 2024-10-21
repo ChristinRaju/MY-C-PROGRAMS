@@ -1,3 +1,5 @@
+//Write a C program to read the elements of a 3x3 matrix from user input and then display the matrix in a formatted way
+
 #include<stdio.h>
 int main()
 {
