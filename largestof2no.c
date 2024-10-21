@@ -1,3 +1,5 @@
+//Write a C program to compare two integers and determine which one is larger, or if they are equal.
+
 #include<stdio.h>
 int main()
 {
