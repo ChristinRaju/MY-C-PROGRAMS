@@ -1,3 +1,5 @@
+//Write a C program to print all uppercase letters of the English alphabet from 'A' to 'Z'.
+
 #include<stdio.h>
 int main()
 {
