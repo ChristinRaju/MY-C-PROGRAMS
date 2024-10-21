@@ -1,3 +1,5 @@
+//Write a C program to add two matrices and display the result.
+
 #include<stdio.h>
 int main()
 {
