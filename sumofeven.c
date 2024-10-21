@@ -1,3 +1,5 @@
+//Write a C program to calculate the sum of all even numbers from 1 to a given positive integer N.
+
 #include <stdio.h>
 
 int main() {
