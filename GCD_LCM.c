@@ -1,3 +1,5 @@
+//Write a C program to calculate and display the GCD and LCM of two integers entered by the user.
+
 #include<stdio.h>
 int main()
 {
