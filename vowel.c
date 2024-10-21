@@ -1,3 +1,5 @@
+//Write a C program to enter a character and then determine whether it is a vowel or a constant
+
 #include<stdio.h>
 int main()
 {
