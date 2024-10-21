@@ -1,3 +1,5 @@
+//Write a C program to generate and print the Fibonacci series up to a specified number of terms entered by the user.
+
 #include<stdio.h>
 int main()
 {
