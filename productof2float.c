@@ -1,3 +1,5 @@
+//Write a C program to multiply two floating-point numbers and display the result
+
 #include<stdio.h>
 int main()
 {
