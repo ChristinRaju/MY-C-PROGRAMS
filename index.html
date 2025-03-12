@@ -1,0 +1,185 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Create a colorful gradient background */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(45deg, #ff6b6b, #f1c40f, #2ecc71, #3498db);
+            background-size: 400% 400%;
+            animation: gradientAnimation 10s ease infinite;
+        }
+
+        /* Add animation for the text */
+        h1 {
+            font-size: 5rem;
+            color: white;
+            text-align: center;
+            animation: fadeInColorChange 4s ease infinite;
+        }
+
+        /* Gradient animation for the background */
+        @keyframes gradientAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        /* Animation for fading in text and color changing */
+        @keyframes fadeInColorChange {
+            0% {
+                opacity: 0;
+                color: #ff6b6b;
+            }
+            50% {
+                opacity: 1;
+                color: #f1c40f;
+            }
+            100% {
+                opacity: 0;
+                color: #3498db;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Christin Raju</h1>
+</body>
+</html> -->
+
+<!-- --------------------------------------------------------------------------------------------------------------------------- -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Create a colorful gradient background */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(45deg, #ff6b6b, #f1c40f, #2ecc71, #3498db);
+            background-size: 400% 400%;
+            animation: gradientAnimation 10s ease infinite;
+            font-family: 'Arial', sans-serif;
+        }
+
+        /* Loading Spinner */
+        .loading {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: none;
+            font-size: 2rem;
+            color: #3498db;
+        }
+
+        /* Add animation for the text */
+        h1 {
+            font-size: 5rem;
+            color: white;
+            text-align: center;
+            animation: fadeInColorChange 4s ease infinite;
+            cursor: pointer;
+            white-space: nowrap;
+        }
+
+        /* Gradient animation for the background */
+        @keyframes gradientAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        /* Animation for fading in text and color changing */
+        @keyframes fadeInColorChange {
+            0% {
+                opacity: 0;
+                color: #ff6b6b;
+            }
+            50% {
+                opacity: 1;
+                color: #f1c40f;
+            }
+            100% {
+                opacity: 0;
+                color: #3498db;
+            }
+        }
+
+        /* Text typing effect */
+        @keyframes typing {
+            from { width: 0; }
+            to { width: 100%; }
+        }
+
+        .typing {
+            display: inline-block;
+            overflow: hidden;
+            white-space: nowrap;
+            border-right: 0.15em solid #fff;
+            animation: typing 4s steps(30) 1s forwards;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="loading">Loading...</div>
+    <h1 class="typing">Christin Raju</h1>
+
+    <script>
+        // Show the loading spinner for 2 seconds, then hide it
+        window.addEventListener('load', () => {
+            document.querySelector('.loading').style.display = 'none';
+        });
+
+        // Function to change the background color based on mouse movement
+        document.body.addEventListener('mousemove', (e) => {
+            const x = e.clientX / window.innerWidth * 255;
+            const y = e.clientY / window.innerHeight * 255;
+            document.body.style.background = `rgb(${x}, ${y}, 150)`;
+        });
+
+        // Add interaction to the heading text
+        const heading = document.querySelector('h1');
+        heading.addEventListener('mouseenter', () => {
+            heading.style.color = '#3498db';  // Change text color on hover
+        });
+        heading.addEventListener('mouseleave', () => {
+            heading.style.color = '';  // Reset to original color
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+<!-- ----------------------------------------------------------------------------------------------------------------------------------------- -->
+
